@@ -23,29 +23,30 @@ import Searchpanel from './Searchpanel';
                                 <div className="box">
                                     <article className="media">
                                         <div className="media-left">
-                                                <figure className="image is-64x64">
+                                                <figure className="image is-48x48">
                                                 <img src={el.image_url} alt="Image" />
                                                 </figure>
                                         </div>
     
                                         <div className="media-content">
                                             <div className="content">
-                                                <p className="is-size-5">
+                                                <p className="txt is-size-5 ">
                                                 <strong>{el.name}</strong> 
                                                 <br/>
                                                 {el.description}
                                                 </p>
                                             </div>
-                                            <nav className="level is-mobile">
+                                        </div>
+                                        <nav className="level is-mobile">
                                                 <div className="level-left">   
                                                     <a className="level-item" aria-label="star">
                                                         <span className="icon is-small">
-                                                        <i className="fas fa-lg" aria-hidden="true"></i>
+                                                        <i className="far fa-star has-text-primary"></i>
+
                                                         </span>
                                                     </a>
                                                 </div>
                                             </nav>
-                                        </div>
                                     </article>
                                 </div>
                          </div> 

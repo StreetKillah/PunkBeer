@@ -56,10 +56,21 @@ html {
   
 }
 
+.media {
+  height: 220px;
+}
+
 .media-content {
-  overflow: hidden;
-  text-overflow: elipsis;
-  height: 260px;
+  display: flex;
+  overflow:hidden;
+  height: 150px;
   width: 150px;
 }
 
+.is-mobile {
+  display: flex;
+}
+
+.level-left {
+  align-self: flex-start;
+}
