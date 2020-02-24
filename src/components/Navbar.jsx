@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 
 
@@ -22,12 +23,12 @@ class Navbar extends React.Component {
                     <div className="navbar-end">
                         <div className="navbar-item">
                             <div className="navbar-menu is-family-sans-serif">
-                                <a className="navbar-item has-text-white-ter">
+                                <NavLink to='/' className="navbar-item has-text-white-ter">
                                 Home
-                                </a>
-                                <a className="navbar-item has-text-grey-lighter">
+                                </NavLink>
+                                <NavLink to='/favs' className="navbar-item has-text-grey-lighter">
                                 Favourites
-                                </a>
+                                </NavLink>
                             </div>
                         </div>
                     </div>
